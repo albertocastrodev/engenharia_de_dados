@@ -1,0 +1,106 @@
+{
+    "columns": [
+        {
+            "name": "invoiceid",
+            "type": "string",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "branch",
+            "type": "string",
+            "size": 10,
+            "required": true
+        },
+        {
+            "name": "city",
+            "type": "string",
+            "size": 30,
+            "required": true
+        },
+        {
+            "name": "customertype",
+            "type": "string",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "gender",
+            "type": "string",
+            "size": 10,
+            "required": true
+        },
+        {
+            "name": "productline",
+            "type": "string",
+            "size": 30,
+            "required": true
+        },
+        {
+            "name": "unitprice",
+            "type": "number",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "quantity",
+            "type": "int",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "tax5%",
+            "type": "number",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "total",
+            "type": "number",
+            "size": 50,
+            "required": true
+        },
+        {
+            "name": "date",
+            "type": "string",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "time",
+            "type": "string",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "payment",
+            "type": "string",
+            "size": 20,
+            "required": true
+        },
+        {
+            "name": "cogs",
+            "type": "number",
+            "size": 30,
+            "required": true
+        },
+        {
+            "name": "grossmarginpercentage",
+            "type": "string",
+            "size": 50,
+            "required": true
+        },
+        {
+            "name": "grossincome",
+            "type": "string",
+            "size": 30,
+            "required": true
+        },
+        {
+            "name": "rating",
+            "type": "number",
+            "size": 20,
+            "required": true
+        }   
+    ]
+}
